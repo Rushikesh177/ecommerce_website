@@ -1,0 +1,12 @@
+npm install express
+npm install jsonwebtoken
+npm install mongoose
+npm install multer
+npm install cors
+
+mongo db compass : 
+mongodb+srv://Rushikesh177:<password>@cluster0.god8zdr.mongodb.net/
+
+frontend - npm start
+admin - npm run dev
+backend - node .\index,js 

@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .loginsignup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #007bff; 
+  }
+  
+
+  .loginsignup-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+
+  .loginsignup-fields input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .loginsignup-fields input:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+
+  .loginsignup-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s;
+  }
+  
+  .loginsignup-container button:hover {
+    transform: translateY(-3px);
+  }
+  
+
+  .loginsignup-login {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .loginsignup-login span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+
+  .loginsignup-agree {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5c5c5c;
+    font-size: 18px;
+    gap: 15px;
+    font-weight: 500px;
+  }
+  
+  .loginsignup-agree input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .loginsignup-agree p {
+    font-size: 15px;
+    margin: 0;
+  }
+  
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .loginsignup-container {
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  @media(max-width:500px){
+    .loginsignup-container{
+      width: auto;
+      width: 350px;
+
+    }
+    .loginsignup-fields{
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .loginsignup-fields input{
+      width: 290px;
+      font-size: 14px;
+    }
+    .loginsignup-container button{
+      font-size: 14px;
+    }
+    .loginsignup-login{
+      font-size: 15px;
+    }
+    .loginsignup-agree p{
+      font-size: 13px;
+    }
+    .loginsignup-agree input[type="checkbox"] {
+      
+      height: 16px;
+      width: 16px;
+    }
+  }
+  
+  
+  
